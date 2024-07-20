@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import noteContext from './noteContext';
 
 export default function NoteState(props) {
-    const host = "https://mernbackend-i4d8.onrender.com/"
+    const host = "https://mernbackend-i4d8.onrender.com"
     const allnotes =[]
 
     const [notes, SetNote] = useState(allnotes)
