@@ -5,7 +5,7 @@ export default function Signup() {
     const navigate = useNavigate();
 
     const [credentials, setcredentials] = useState({name:"",email:"",password:""});
-    const host = "https://mernbackend-i4d8.onrender.com/"
+    const host = "https://mernbackend-i4d8.onrender.com"
 
     const handlesubmit=async(event)=>{
 
