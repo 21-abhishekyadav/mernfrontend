@@ -10,7 +10,7 @@ export default function Login() {
    
 
     const [credentials, setcredentials] = useState({email:"",password:""});
-    const host = "https://mernbackend-i4d8.onrender.com/"
+    const host = "https://mernbackend-i4d8.onrender.com"
 
     const handlesubmit=async(event)=>{
         event.preventDefault();
